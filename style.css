@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #000;
+    background-image: linear-gradient(rgba(9, 4, 45, 0.65),rgba(5, 1, 35, 0.65)),url(images/stars.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+
+header {
+    
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.navbar ul li a {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar ul li a:active,
+.navbar ul li a:focus,
+.navbar ul li a{
+    color: #fff;
+}
+
+.logo {
+    font-size: 32px; /* Make the logo bigger */
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    color: #fff;
+    margin-left: 20px; /* Add left margin to move it to the left */
+}
+
+
+.bigger-logo {
+    font-size: 2.5em;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    border:2px solid #fff;
+}
+
+.navbar ul li a:hover {
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+}
+
+#about {
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-basis: 60%; /* Adjust the width of the content */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    
+}
+h2 {
+    color: #ffffff; /* Change to your desired heading color */
+}
+
+
+.container {
+    
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    
+   
+}
+.body-text {
+    font-family: 'Afacad', sans-serif;
+
+    font-size: 25px;
+    line-height: 1.5;
+    text-align:right;
+    margin: 20px;
+    color: #ffffff;
+}
+
+
+.red-font {
+    margin: left 0;;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: normal;
+}
+section{
+    height: 408px;
+    
+}
+.section-heading{
+    color:rgb(0, 200, 255);
+}
+.sub-heading1{
+    color: rgb(58, 122, 239);
+}
+.sub-heading2{
+    color: rgb(136, 127, 255);
+}
+
+  
